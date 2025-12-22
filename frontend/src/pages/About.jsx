@@ -128,8 +128,8 @@ const About = () => {
 
       {/* Who We Serve */}
       <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6 text-center">Who We Serve</h2>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6">Who We Serve</h2>
           <div className="text-lg text-gray-700 leading-relaxed space-y-4">
             <p>
               Bael Tree Hotels serves corporate leaders, IT professionals, and business travelers seeking a comfortable and well-connected hotel in Madhapur, Hyderabad. With high-speed connectivity, professional meeting facilities, and seamless access to HITEC City and major business hubs, we are ideal for work-focused stays.
