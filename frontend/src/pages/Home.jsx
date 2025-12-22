@@ -195,8 +195,8 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
               <Card key={testimonial.id} className="border-2 border-amber-100">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
+                <CardContent className="p-6 text-center">
+                  <div className="flex items-center justify-center mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="w-5 h-5 fill-amber-500 text-amber-500" />
                     ))}
