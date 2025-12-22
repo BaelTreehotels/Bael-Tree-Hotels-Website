@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from '../components/ui/card';
 import { Award, Heart, Users, MapPin } from 'lucide-react';
-import { hotelInfo } from '../mock';
+import { hotelInfo, restaurants } from '../mock';
 
 const About = () => {
   return (
