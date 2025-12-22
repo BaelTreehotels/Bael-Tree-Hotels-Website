@@ -155,7 +155,7 @@ const BookNow = () => {
               {/* Room Selection */}
               <Card className="bg-white">
                 <CardContent className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Select Room</h2>
+                  <h2 className="text-2xl font-serif font-bold text-amber-950 mb-6">Select Room</h2>
                   <div className="space-y-4">
                     {rooms.map((room) => (
                       <div
