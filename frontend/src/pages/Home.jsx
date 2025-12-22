@@ -238,7 +238,7 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-16 bg-amber-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-serif italic font-bold mb-4">Ready to Experience Comfort?</h2>
+          <h2 className="text-4xl font-serif font-bold mb-4">Ready to Experience Comfort?</h2>
           <p className="text-xl mb-8">Book your stay today and enjoy the best hospitality in Hyderabad</p>
           <Link to="/book">
             <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100 px-8 py-6 text-lg">
