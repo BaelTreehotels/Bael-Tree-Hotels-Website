@@ -131,7 +131,7 @@ const Contact = () => {
             {/* Contact Form */}
             <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+                <h2 className="text-2xl font-serif font-bold text-amber-950 mb-6">Send us a Message</h2>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
