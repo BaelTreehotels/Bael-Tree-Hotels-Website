@@ -376,7 +376,7 @@ const BookNow = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-white">
             <CardContent className="p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Booking Policies</h2>
+              <h2 className="text-xl font-serif font-bold text-amber-950 mb-4">Booking Policies</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-600">
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Check-in/Check-out</h3>
