@@ -89,6 +89,43 @@ const About = () => {
         </div>
       </section>
 
+      {/* Dining Section */}
+      <section className="py-16 bg-gradient-to-br from-amber-50 to-orange-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-amber-950 mb-4">
+              Enjoy Multi Cuisine Dining at Bael Tree Hotels
+            </h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              Enjoy thoughtfully prepared dishes in a warm, elegant setting where every meal feels comforting. Bael Tree's dining brings together fresh flavours, wholesome vegetarian delights, and soulful non-vegetarian classics under one roof.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            {restaurants.map((restaurant) => (
+              <Card key={restaurant.id} className="bg-white hover:shadow-xl transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <div className="flex justify-center mb-6">
+                    <img 
+                      src={restaurant.logo} 
+                      alt={restaurant.name}
+                      className="h-32 w-auto object-contain"
+                    />
+                  </div>
+                  <div className="text-center mb-4">
+                    <span className="inline-block px-4 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium">
+                      {restaurant.type}
+                    </span>
+                  </div>
+                  <p className="text-gray-700 text-center leading-relaxed">
+                    {restaurant.description}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Location Highlights */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
