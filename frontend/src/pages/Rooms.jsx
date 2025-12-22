@@ -118,7 +118,7 @@ const Rooms = () => {
       {/* Best Price Guarantee */}
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Best Price Guarantee</h2>
+          <h2 className="text-3xl font-serif italic font-bold text-amber-950 mb-4">Best Price Guarantee</h2>
           <p className="text-lg text-gray-600 mb-6">
             Book directly with us and enjoy the best rates. We guarantee you won't find a lower price elsewhere.
           </p>
