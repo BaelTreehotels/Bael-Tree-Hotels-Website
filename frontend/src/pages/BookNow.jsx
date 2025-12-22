@@ -223,7 +223,7 @@ const BookNow = () => {
               {/* Guest Details */}
               <Card className="bg-white">
                 <CardContent className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Guest Details</h2>
+                  <h2 className="text-2xl font-serif font-bold text-amber-950 mb-6">Guest Details</h2>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
