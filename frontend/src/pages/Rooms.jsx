@@ -9,8 +9,8 @@ const Rooms = () => {
   const [filter, setFilter] = useState('all');
 
   const filteredRooms = filter === 'all' ? rooms : rooms.filter(room => {
-    if (filter === 'budget') return room.price < 3500;
-    if (filter === 'premium') return room.price >= 3500;
+    if (filter === 'budget') return room.price < 4000;
+    if (filter === 'premium') return room.price >= 4000;
     return true;
   });
 
