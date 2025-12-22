@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
-import { Wifi, Car, Coffee, Shield, MapPin, Phone, MessageCircle, Wind, Sparkles, Tv, Zap } from 'lucide-react';
+import { Wifi, Car, Coffee, Shield, MapPin, Phone, MessageCircle, Wind, Sparkles, Tv, Zap, Star } from 'lucide-react';
 import { rooms, hotelInfo, testimonials } from '../mock';
 
 const Home = () => {
