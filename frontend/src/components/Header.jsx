@@ -24,8 +24,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-serif italic font-bold text-amber-900">
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src={hotelInfo.logo} 
+              alt="Bael Tree Hotels" 
+              className="h-12 w-auto"
+            />
+            <div className="text-2xl font-serif font-bold text-amber-900">
               Bael Tree Hotels
             </div>
           </Link>
