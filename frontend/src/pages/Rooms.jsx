@@ -115,16 +115,55 @@ const Rooms = () => {
         </div>
       </section>
 
-      {/* Best Price Guarantee */}
-      <section className="py-12 bg-white">
+      {/* Hotel Policies */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-amber-950 mb-4">Hotel Policies</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="bg-white">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-amber-950 mb-4">Check-in Info</h3>
+                <div className="space-y-2 text-gray-700">
+                  <p><span className="font-semibold">Check-in:</span> 2:00 PM</p>
+                  <p><span className="font-semibold">Check-out:</span> 12:00 PM</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-amber-950 mb-4">Cancellation Policy</h3>
+                <div className="space-y-2 text-gray-700">
+                  <p>Free cancellation up to 24 hours</p>
+                  <p><span className="font-semibold">No-show:</span> Full charge</p>
+                  <p>Refunds within 7 business days</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-amber-950 mb-4">Additional Info</h3>
+                <div className="space-y-2 text-gray-700">
+                  <p>Valid ID required</p>
+                  <p>Smoking in designated areas only</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience our Hospitality */}
+      <section className="py-12 bg-gradient-to-br from-amber-50 to-orange-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-4">Best Price Guarantee</h2>
+          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-4">Experience our Hospitality</h2>
           <p className="text-lg text-gray-600 mb-6">
-            Book directly with us and enjoy the best rates. We guarantee you won't find a lower price elsewhere.
+            Thoughtful hospitality designed for business and leisure stays.
           </p>
           <Link to="/book">
             <Button size="lg" className="bg-amber-700 hover:bg-amber-800 text-white">
-              Book Direct & Save
+              Book Your Stay
             </Button>
           </Link>
         </div>
