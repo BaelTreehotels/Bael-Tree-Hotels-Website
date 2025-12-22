@@ -137,7 +137,6 @@ const Rooms = () => {
                 <div className="space-y-2 text-gray-700">
                   <p>Free cancellation up to 24 hours</p>
                   <p><span className="font-semibold">No-show:</span> Full charge</p>
-                  <p>Refunds within 7 business days</p>
                 </div>
               </CardContent>
             </Card>
