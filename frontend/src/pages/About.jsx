@@ -108,7 +108,7 @@ const About = () => {
                     <img 
                       src={restaurant.logo} 
                       alt={restaurant.name}
-                      className="h-32 w-auto object-contain"
+                      className="h-48 w-auto object-contain"
                     />
                   </div>
                   <div className="text-center mb-4">
@@ -126,32 +126,18 @@ const About = () => {
         </div>
       </section>
 
-      {/* Location Highlights */}
+      {/* Who We Serve */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-white shadow-lg">
-            <CardContent className="p-8">
-              <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6 text-center">Our Location Benefits</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Business Travelers</h3>
-                  <ul className="space-y-1 text-sm">
-                    <li>• Close to major IT parks and corporate offices</li>
-                    <li>• Easy access to business districts</li>
-                    <li>• Conference and meeting facilities nearby</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Leisure Travelers</h3>
-                  <ul className="space-y-1 text-sm">
-                    <li>• Near popular shopping centers and malls</li>
-                    <li>• Multiple dining and entertainment options</li>
-                    <li>• Well-connected to major tourist attractions</li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6 text-center">Who We Serve</h2>
+          <div className="text-lg text-gray-700 leading-relaxed space-y-4">
+            <p>
+              Bael Tree Hotels serves corporate leaders, IT professionals, and business travelers seeking a comfortable and well-connected hotel in Madhapur, Hyderabad. With high-speed connectivity, professional meeting facilities, and seamless access to HITEC City and major business hubs, we are ideal for work-focused stays.
+            </p>
+            <p>
+              Our in-house dining experiences also attract culinary enthusiasts looking for authentic, premium Indian cuisine in an elegant setting.
+            </p>
+          </div>
         </div>
       </section>
     </div>
