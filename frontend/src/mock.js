@@ -5,7 +5,7 @@ export const hotelInfo = {
   tagline: "Comfortable Stay in the Heart of Hyderabad",
   address: "100 Feet Road, Madhapur, Hyderabad",
   phone: "+91 40 1234 5678",
-  whatsapp: "+91 98765 43210",
+  whatsapp: "+91-9642325555",
   email: "reservations@baeltreehotels.com",
   infoEmail: "info@baeltreehotels.com",
   checkIn: "2:00 PM",
@@ -16,48 +16,49 @@ export const hotelInfo = {
 export const rooms = [
   {
     id: 1,
-    name: "Deluxe Room",
-    description: "Spacious room with modern amenities and city view",
-    price: 3500,
-    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800",
-    amenities: ["AC", "Wi-Fi", "TV", "Breakfast", "Room Service"],
+    name: "Standard",
+    description: "Comfortable room with essential amenities for a pleasant stay",
+    price: 2500,
+    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800",
+    amenities: ["AC", "Wi-Fi", "TV", "Mini Bar"],
     maxGuests: 2,
-    size: "280 sq ft",
-    bedType: "King Size Bed"
+    size: "10 m² / 108 ft²",
+    bedType: "Queen Size Bed"
   },
   {
     id: 2,
-    name: "Executive Suite",
-    description: "Premium suite with separate living area and workspace",
-    price: 5500,
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
-    amenities: ["AC", "Wi-Fi", "TV", "Breakfast", "Room Service", "Mini Bar"],
+    name: "Executive",
+    description: "Spacious room with king bed and dedicated workspace",
+    price: 4000,
+    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800",
+    amenities: ["AC", "Wi-Fi", "King Bed", "TV", "Work Desk", "Mini Bar"],
     maxGuests: 2,
-    size: "400 sq ft",
+    size: "17 m² / 183 ft²",
     bedType: "King Size Bed"
   },
   {
     id: 3,
-    name: "Family Room",
-    description: "Perfect for families with extra space and comfort",
-    price: 4500,
-    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
-    amenities: ["AC", "Wi-Fi", "TV", "Breakfast", "Room Service"],
-    maxGuests: 4,
-    size: "350 sq ft",
-    bedType: "Two Queen Beds"
+    name: "Premium",
+    description: "Premium room with dining area and enhanced comfort",
+    price: 5000,
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
+    amenities: ["AC", "Wi-Fi", "King Bed", "TV", "Dining Table", "Work Desk", "Mini Bar"],
+    maxGuests: 2,
+    size: "22 m² / 237 ft²",
+    bedType: "King Size Bed"
   },
   {
     id: 4,
-    name: "Standard Room",
-    description: "Comfortable room with all essential amenities",
-    price: 2800,
-    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800",
-    amenities: ["AC", "Wi-Fi", "TV", "Breakfast"],
+    name: "Suite Room",
+    description: "Luxurious suite with lounge area and premium amenities",
+    price: 6000,
+    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+    amenities: ["AC", "Wi-Fi", "Lounge Area", "Mini Refrigerator", "Mini Bar"],
     maxGuests: 2,
-    size: "250 sq ft",
-    bedType: "Queen Size Bed"
+    size: "32 m² / 344 ft²",
+    bedType: "King Size Bed"
   }
+];
 ];
 
 export const amenities = [
