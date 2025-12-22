@@ -16,28 +16,31 @@ const About = () => {
 
       {/* Our Story */}
       <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-white shadow-lg">
-            <CardContent className="p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-                Welcome to {hotelInfo.name}
-              </h2>
-              <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
-                <p>
-                  Nestled in the vibrant heart of Madhapur, Hyderabad, Bael Tree Hotels has been serving travelers with warmth and dedication. As a family-run establishment, we understand the importance of making every guest feel at home.
-                </p>
-                <p>
-                  Our 3-star hotel combines comfort, convenience, and affordability, making us the perfect choice for business travelers, couples, and families alike. We take pride in our commitment to cleanliness, safety, and personalized service.
-                </p>
-                <p>
-                  Located strategically in Madhapur, one of Hyderabad's prime business and entertainment districts, we offer easy access to IT parks, shopping centers, restaurants, and major city attractions. Whether you're here for work or leisure, our hotel provides the perfect base for your Hyderabad experience.
-                </p>
-                <p>
-                  At Bael Tree Hotels, we believe in creating memorable experiences through genuine hospitality. Our dedicated team works round the clock to ensure your stay is comfortable, convenient, and exceeds your expectations.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <img
+                src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800"
+                alt="Bael Tree Hotels"
+                className="rounded-lg shadow-xl w-full h-96 object-cover"
+              />
+            </div>
+            <Card className="bg-white shadow-lg order-1 lg:order-2">
+              <CardContent className="p-8">
+                <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6 text-center">
+                  Welcome to {hotelInfo.name}
+                </h2>
+                <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+                  <p>
+                    Located in the heart of Hyderabad's IT corridor, Bael Tree Hotels, Madhapur blends urban sophistication with a dedicated motto: <span className="font-semibold italic">Hospitality First, Service Always</span>. Designed for corporate leaders and discerning travelers, we offer an unparalleled stay defined by professional excellence and refined comfort.
+                  </p>
+                  <p>
+                    At Bael Tree, we transform traditional hospitality into a bespoke luxury experience for the modern professional.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
