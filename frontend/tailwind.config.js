@@ -8,7 +8,7 @@ module.exports = {
   theme: {
   	extend: {
   		fontFamily: {
-  			'serif': ['"Instrument Serif"', 'serif'],
+  			'serif': ['"Playfair Display"', 'serif'],
   			'display': ['"Wix Madefor Display"', 'sans-serif']
   		},
   		borderRadius: {
