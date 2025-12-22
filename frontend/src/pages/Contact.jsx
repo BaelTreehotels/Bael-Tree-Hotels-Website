@@ -36,7 +36,7 @@ const Contact = () => {
       {/* Header */}
       <section className="bg-white py-12 border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">Contact Us</h1>
+          <h1 className="text-5xl font-serif font-bold text-amber-950 mb-4">Contact Us</h1>
           <p className="text-xl text-gray-600">We're here to help and answer any questions you might have</p>
         </div>
       </section>
