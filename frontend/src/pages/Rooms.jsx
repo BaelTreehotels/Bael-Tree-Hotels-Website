@@ -20,7 +20,7 @@ const Rooms = () => {
       <section className="bg-white py-12 border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-serif font-bold text-amber-950 mb-4">Our Rooms</h1>
-          <p className="text-xl text-gray-600">Choose from our comfortable and well-appointed rooms</p>
+          <p className="text-xl text-gray-600">Choose from our carefully designed rooms perfect for business travellers, families and couples. All rooms include complimentary breakfast and modern amenities.</p>
         </div>
       </section>
 
