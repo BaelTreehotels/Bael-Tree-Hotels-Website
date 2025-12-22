@@ -81,36 +81,108 @@ export const rooms = [
 
 export const amenities = [
   {
-    category: "Room Amenities",
+    category: "Hotel Amenities",
     items: [
-      { name: "Air Conditioning", icon: "wind" },
-      { name: "High-Speed Wi-Fi", icon: "wifi" },
-      { name: "Flat Screen TV", icon: "tv" },
-      { name: "Room Service", icon: "concierge" },
-      { name: "Daily Housekeeping", icon: "sparkles" },
-      { name: "Mini Refrigerator", icon: "refrigerator" }
+      { 
+        name: "24/7 Front Desk", 
+        description: "Attentive service and assistance at any hour of the day.",
+        icon: "clock" 
+      },
+      { 
+        name: "Complimentary Wi-Fi", 
+        description: "Seamless, high-speed connectivity throughout the property.",
+        icon: "wifi" 
+      },
+      { 
+        name: "Housekeeping Service", 
+        description: "Impeccable daily upkeep for a consistently refreshing stay.",
+        icon: "sparkles" 
+      },
+      { 
+        name: "Air-Conditioned Rooms", 
+        description: "Thoughtfully climate-controlled for all-day comfort.",
+        icon: "wind" 
+      },
+      { 
+        name: "Television with Cable & OTT", 
+        description: "Curated entertainment, available at your leisure.",
+        icon: "tv" 
+      },
+      { 
+        name: "Hot & Cold Water", 
+        description: "Reliable access, around the clock.",
+        icon: "droplet" 
+      },
+      { 
+        name: "In-Room Dining", 
+        description: "Thoughtfully prepared meals served in the privacy of your room.",
+        icon: "utensils" 
+      },
+      { 
+        name: "Laundry Service", 
+        description: "Professional care for your garments, handled with precision.",
+        icon: "shirt" 
+      },
+      { 
+        name: "Lift / Elevator", 
+        description: "Effortless access to all floors.",
+        icon: "building" 
+      },
+      { 
+        name: "Power Backup", 
+        description: "Uninterrupted comfort, even during power outages.",
+        icon: "zap" 
+      },
+      { 
+        name: "Travel Assistance", 
+        description: "Personalized support for local and onward journeys.",
+        icon: "map" 
+      }
     ]
   },
   {
-    category: "Hotel Facilities",
+    category: "Premium Amenities",
     items: [
-      { name: "24/7 Reception", icon: "clock" },
-      { name: "Free Parking", icon: "car" },
-      { name: "Elevator Access", icon: "building" },
-      { name: "CCTV Security", icon: "shield" },
-      { name: "Power Backup", icon: "zap" },
-      { name: "Laundry Service", icon: "shirt" }
-    ]
-  },
-  {
-    category: "Dining & Services",
-    items: [
-      { name: "Restaurant", icon: "utensils" },
-      { name: "Complimentary Breakfast", icon: "coffee" },
-      { name: "In-Room Dining", icon: "chef-hat" },
-      { name: "Travel Desk", icon: "map" },
-      { name: "Airport Transfer", icon: "plane" },
-      { name: "Business Center", icon: "briefcase" }
+      { 
+        name: "Complimentary Breakfast", 
+        description: "A delightful start to your day.",
+        icon: "coffee" 
+      },
+      { 
+        name: "Mini Bar", 
+        description: "Refreshments curated for your convenience.",
+        icon: "wine" 
+      },
+      { 
+        name: "Accessible Mobility Assistance", 
+        description: "Ensuring smooth, dignified access with wheelchair-friendly support on request.",
+        icon: "accessibility" 
+      },
+      { 
+        name: "In-Room Safe", 
+        description: "Secure storage for your valuables.",
+        icon: "shield" 
+      },
+      { 
+        name: "Work Desk & Comfortable Seating", 
+        description: "A refined space designed for productivity.",
+        icon: "briefcase" 
+      },
+      { 
+        name: "Premium Toiletries", 
+        description: "Thoughtfully selected essentials for everyday indulgence.",
+        icon: "package" 
+      },
+      { 
+        name: "Valet Parking", 
+        description: "Courteous and secure vehicle assistance.",
+        icon: "car" 
+      },
+      { 
+        name: "Airport Pick-up & Drop", 
+        description: "Private chauffeur service for seamless arrivals and departures.",
+        icon: "plane" 
+      }
     ]
   }
 ];
