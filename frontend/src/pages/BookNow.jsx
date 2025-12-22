@@ -100,7 +100,7 @@ const BookNow = () => {
               {/* Date Selection */}
               <Card className="bg-white">
                 <CardContent className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Select Dates</h2>
+                  <h2 className="text-2xl font-serif font-bold text-amber-950 mb-6">Select Dates</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <Label className="mb-2 block">Check-in Date</Label>
