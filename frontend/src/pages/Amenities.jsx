@@ -78,7 +78,7 @@ const Amenities = () => {
       {/* Commitment Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Commitment</h2>
+          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6">Our Commitment</h2>
           <div className="space-y-4 text-lg text-gray-700">
             <p>
               At Bael Tree Hotels, we prioritize your comfort, safety, and convenience. Our facilities are designed to cater to both business and leisure travelers.
