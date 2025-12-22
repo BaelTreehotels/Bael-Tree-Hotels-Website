@@ -127,11 +127,11 @@ const About = () => {
       </section>
 
       {/* Location Highlights */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-white shadow-lg">
             <CardContent className="p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Location Benefits</h2>
+              <h2 className="text-3xl font-serif font-bold text-amber-950 mb-6 text-center">Our Location Benefits</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Business Travelers</h3>
