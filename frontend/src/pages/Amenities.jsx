@@ -48,19 +48,24 @@ const Amenities = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           {amenities.map((category, idx) => (
             <div key={idx}>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              <h2 className="text-3xl font-serif font-bold text-amber-950 mb-8 text-center">
                 {category.category}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {category.items.map((item, itemIdx) => (
                   <Card key={itemIdx} className="bg-white hover:shadow-lg transition-shadow duration-300">
-                    <CardContent className="p-6 text-center">
-                      <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <div className="text-white">
-                          {getIcon(item.icon)}
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-amber-700 rounded-full flex items-center justify-center flex-shrink-0">
+                          <div className="text-white">
+                            {getIcon(item.icon)}
+                          </div>
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="text-lg font-semibold text-amber-950 mb-2">{item.name}</h3>
+                          <p className="text-sm text-gray-600">{item.description}</p>
                         </div>
                       </div>
-                      <h3 className="text-lg font-semibold text-gray-900">{item.name}</h3>
                     </CardContent>
                   </Card>
                 ))}
