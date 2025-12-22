@@ -10,7 +10,7 @@ export const hotelInfo = {
   infoEmail: "info@baeltreehotels.com",
   checkIn: "2:00 PM",
   checkOut: "12:00 PM",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.449353939653!2d78.38854731487695!3d17.43830988804784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8c5d69df%3A0x19688beb557fa0ee!2sMadhapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1234567890",
+  mapUrl: "https://maps.app.goo.gl/q3vqjNqdhVYmafN26",
   googleTravelLink: "https://www.google.com/travel/search?ts=CAEaSQopEicyJTB4M2JjYjkxMDA1MTVkMjY4OToweDEyMzg3ODAxMWM0OWQzMzESHBIUCgcI6Q8QDBgXEgcI6Q8QDBgYGAEyBAgAEAAqBwoFOgNJTlI&qs=CAEyE0Nnb0lzYWFuNHBHQW5wd1NFQUU4AkIJCTHTSRwBeDgSQgkJMdNJHAF4OBJIAA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls",
   logo: "https://customer-assets.emergentagent.com/job_hotel-site-master/artifacts/esjg7cyg_BT%20png%20o.png"
 };
