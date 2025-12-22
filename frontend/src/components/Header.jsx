@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-amber-800">
+            <div className="text-2xl font-serif italic font-bold text-amber-900">
               Bael Tree Hotels
             </div>
           </Link>
