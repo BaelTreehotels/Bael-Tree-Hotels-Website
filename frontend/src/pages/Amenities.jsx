@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '../components/ui/card';
-import { Wifi, Car, Coffee, Shield, Clock, Sparkles, Tv, Wind, MapPin, Zap, Utensils, Briefcase } from 'lucide-react';
+import { Wifi, Car, Coffee, Shield, Clock, Sparkles, Tv, Wind, MapPin, Zap, Utensils, Briefcase, Building, Shirt, Droplet, Wine, Accessibility, Package, Plane } from 'lucide-react';
 import { amenities } from '../mock';
 
 const iconMap = {
@@ -15,7 +15,14 @@ const iconMap = {
   'map': MapPin,
   zap: Zap,
   utensils: Utensils,
-  briefcase: Briefcase
+  briefcase: Briefcase,
+  building: Building,
+  shirt: Shirt,
+  droplet: Droplet,
+  wine: Wine,
+  accessibility: Accessibility,
+  'package': Package,
+  plane: Plane
 };
 
 const Amenities = () => {
