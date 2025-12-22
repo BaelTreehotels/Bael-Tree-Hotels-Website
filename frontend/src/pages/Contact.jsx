@@ -69,7 +69,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg text-amber-950 mb-1">Phone</h3>
-                      <a href={`tel:${hotelInfo.phone}`} className="text-amber-700 hover:underline">
+                      <a href={`tel:${hotelInfo.phone}`} className="text-gray-900 hover:underline">
                         {hotelInfo.phone}
                       </a>
                     </div>
@@ -85,10 +85,10 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg text-amber-950 mb-1">Email</h3>
-                      <a href={`mailto:${hotelInfo.email}`} className="text-amber-700 hover:underline block">
+                      <a href={`mailto:${hotelInfo.email}`} className="text-gray-900 hover:underline block">
                         {hotelInfo.email}
                       </a>
-                      <a href={`mailto:${hotelInfo.infoEmail}`} className="text-amber-700 hover:underline block">
+                      <a href={`mailto:${hotelInfo.infoEmail}`} className="text-gray-900 hover:underline block">
                         {hotelInfo.infoEmail}
                       </a>
                     </div>
