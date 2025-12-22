@@ -47,14 +47,14 @@ const About = () => {
       {/* Our Values */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Why Choose Us</h2>
+          <h2 className="text-3xl font-serif font-bold text-amber-950 mb-12 text-center">Why Choose Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <Card className="text-center">
               <CardContent className="p-6">
                 <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality Service</h3>
+                <h3 className="text-xl font-semibold text-amber-950 mb-2">Quality Service</h3>
                 <p className="text-gray-600">Commitment to excellence in every aspect of your stay</p>
               </CardContent>
             </Card>
@@ -63,7 +63,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Warm Hospitality</h3>
+                <h3 className="text-xl font-semibold text-amber-950 mb-2">Warm Hospitality</h3>
                 <p className="text-gray-600">Treating every guest like family with personalized care</p>
               </CardContent>
             </Card>
@@ -72,7 +72,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Prime Location</h3>
+                <h3 className="text-xl font-semibold text-amber-950 mb-2">Prime Location</h3>
                 <p className="text-gray-600">Central location with easy access to key destinations</p>
               </CardContent>
             </Card>
@@ -81,7 +81,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">For Everyone</h3>
+                <h3 className="text-xl font-semibold text-amber-950 mb-2">For Everyone</h3>
                 <p className="text-gray-600">Perfect for business, leisure, couples, and families</p>
               </CardContent>
             </Card>
