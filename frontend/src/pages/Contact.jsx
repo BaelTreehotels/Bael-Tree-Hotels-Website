@@ -68,7 +68,7 @@ const Contact = () => {
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-gray-900 mb-1">Phone</h3>
+                      <h3 className="font-semibold text-lg text-amber-950 mb-1">Phone</h3>
                       <a href={`tel:${hotelInfo.phone}`} className="text-amber-700 hover:underline">
                         {hotelInfo.phone}
                       </a>
@@ -84,7 +84,7 @@ const Contact = () => {
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-gray-900 mb-1">Email</h3>
+                      <h3 className="font-semibold text-lg text-amber-950 mb-1">Email</h3>
                       <a href={`mailto:${hotelInfo.email}`} className="text-amber-700 hover:underline block">
                         {hotelInfo.email}
                       </a>
@@ -103,7 +103,7 @@ const Contact = () => {
                       <Clock className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-gray-900 mb-1">Working Hours</h3>
+                      <h3 className="font-semibold text-lg text-amber-950 mb-1">Working Hours</h3>
                       <p className="text-gray-600">24/7 Reception & Support</p>
                       <p className="text-sm text-gray-500 mt-1">Check-in: {hotelInfo.checkIn}</p>
                       <p className="text-sm text-gray-500">Check-out: {hotelInfo.checkOut}</p>
