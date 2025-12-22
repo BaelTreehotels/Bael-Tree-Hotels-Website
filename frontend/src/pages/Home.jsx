@@ -121,10 +121,38 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-br from-amber-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
+            <h2 className="text-4xl font-serif italic font-bold text-amber-950 mb-4">Why Choose Us</h2>
             <p className="text-lg text-gray-600">Premium amenities for your comfort</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Wind className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Air Conditioning</h3>
+              <p className="text-sm text-gray-600">Climate control comfort</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Room Service</h3>
+              <p className="text-sm text-gray-600">24/7 at your service</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Tv className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Smart TV</h3>
+              <p className="text-sm text-gray-600">Entertainment at your fingertips</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Zap className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Power Backup</h3>
+              <p className="text-sm text-gray-600">Uninterrupted service</p>
+            </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Wifi className="w-8 h-8 text-white" />
