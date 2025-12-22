@@ -54,7 +54,7 @@ const Contact = () => {
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-gray-900 mb-1">Address</h3>
+                      <h3 className="font-semibold text-lg text-amber-950 mb-1">Address</h3>
                       <p className="text-gray-600">{hotelInfo.address}</p>
                     </div>
                   </div>
