@@ -59,7 +59,6 @@ export const rooms = [
     bedType: "King Size Bed"
   }
 ];
-];
 
 export const amenities = [
   {
