@@ -292,7 +292,7 @@ const BookNow = () => {
             <div className="lg:col-span-1">
               <Card className="bg-white sticky top-24">
                 <CardContent className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Booking Summary</h2>
+                  <h2 className="text-2xl font-serif font-bold text-amber-950 mb-6">Booking Summary</h2>
                   
                   {selectedRoom ? (
                     <div className="space-y-4">
