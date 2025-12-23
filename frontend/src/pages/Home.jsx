@@ -45,7 +45,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" />
-              <span className="font-medium">24/7 Support: {hotelInfo.phone}</span>
+              <span className="font-medium">24/7 Support: 040 4552 3555</span>
             </div>
             <div className="flex space-x-4">
               <a href={`tel:${hotelInfo.phone}`}>
@@ -222,7 +222,7 @@ const Home = () => {
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3732863447704!2d78.3864064!3d17.447032299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb910051526895%3A0x1238780c4d333!2sBael%20Tree%20Hotels!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625.830804466227!2d78.39305966569272!3d17.45264533508296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9100515d2689%3A0x123878011c49d331!2sBael%20Tree%20Hotel!5e0!3m2!1sen!2sin!4v1766479673709!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}

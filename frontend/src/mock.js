@@ -232,21 +232,21 @@ export const testimonials = [
     name: "Naveen Reddy Kolli",
     rating: 5,
     comment: "I had a wonderful experience at Bael Tree Hotel. The staff was friendly, and check-in was quick. My room was clean, comfortable, and had everything I needed. The bed was cozy, and the bathroom was spotless. The hotel's location was perfect for exploring. Overall, a great stay and good value for the price.",
-    date: "December 2024"
+    date: "December 2025"
   },
   {
     id: 2,
     name: "Diani",
     rating: 5,
     comment: "The hotel was very nice, we spent one week in Hyderabad because we had a wedding and the staying was amazing. The hotel is totally new, the room very clean and the staff so kind, specially Ipshita, she speaks very well English too!!",
-    date: "November 2024"
+    date: "November 2025"
   },
   {
     id: 3,
     name: "Somen Debnath",
     rating: 5,
     comment: "The hotel offered an absolutely impeccable stay, combining luxurious room design with seamless check-in to personalized recommendations, was world-class and made the experience truly exceptional.",
-    date: "October 2024"
+    date: "October 2025"
   }
 ];
 

@@ -35,20 +35,6 @@ const Rooms = () => {
             >
               All Rooms
             </Button>
-            <Button
-              variant={filter === 'budget' ? 'default' : 'outline'}
-              onClick={() => setFilter('budget')}
-              className={filter === 'budget' ? 'bg-amber-700 hover:bg-amber-800' : 'border-amber-700 text-amber-700 hover:bg-amber-50'}
-            >
-              Budget Friendly
-            </Button>
-            <Button
-              variant={filter === 'premium' ? 'default' : 'outline'}
-              onClick={() => setFilter('premium')}
-              className={filter === 'premium' ? 'bg-amber-700 hover:bg-amber-800' : 'border-amber-700 text-amber-700 hover:bg-amber-50'}
-            >
-              Premium
-            </Button>
           </div>
         </div>
       </section>
