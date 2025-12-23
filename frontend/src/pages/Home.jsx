@@ -242,7 +242,7 @@ const Home = () => {
           <p className="text-xl mb-8">Book your stay today and enjoy the best hospitality in Hyderabad</p>
           <Link to="/book">
             <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100 px-8 py-6 text-lg">
-              Book Your Room Now
+              Book Now
             </Button>
           </Link>
         </div>

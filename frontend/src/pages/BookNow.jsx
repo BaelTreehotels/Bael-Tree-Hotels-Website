@@ -389,7 +389,7 @@ const BookNow = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Payment</h3>
-                  <p>Payment can be made at the hotel. We accept cash and all major credit/debit cards.</p>
+                  <p>Credit and Debit Cards Accepted</p>
                 </div>
               </div>
             </CardContent>
