@@ -5,6 +5,7 @@ import { Card, CardContent } from '../components/ui/card';
 import { Wifi, Car, Coffee, Shield, MapPin, Phone, MessageCircle, Wind, Sparkles, Tv, Zap, Star } from 'lucide-react';
 import { rooms, hotelInfo, testimonials } from '../mock';
 
+
 const Home = () => {
   const featuredRooms = rooms.slice(0, 3);
 
@@ -15,8 +16,11 @@ const Home = () => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600')] bg-cover bg-center opacity-20"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-amber-950 mb-6">
-            {hotelInfo.tagline}
+            Premium Hotel in Madhapur, Hyderabad
           </h1>
+          <p className="text-xl text-gray-700 mb-4">
+            {hotelInfo.tagline}
+          </p>
           <p className="text-xl text-gray-700 mb-8">
             Experience comfort, convenience, and warm hospitality at {hotelInfo.name}
           </p>
