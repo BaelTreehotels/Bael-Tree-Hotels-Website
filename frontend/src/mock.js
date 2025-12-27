@@ -190,39 +190,81 @@ export const amenities = [
 export const galleryImages = [
   {
     id: 1,
-    category: "Rooms",
-    url: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600",
-    alt: "Deluxe Room Interior"
+    category: "Exterior",
+    url: "/images/exterior-hotel.jpg",
+    alt: "Hotel Exterior"
   },
   {
     id: 2,
-    category: "Rooms",
-    url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600",
-    alt: "Executive Suite"
+    category: "Lobby",
+    url: "/images/lobby.jpg",
+    alt: "Hotel Lobby"
   },
   {
     id: 3,
     category: "Lobby",
-    url: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600",
-    alt: "Hotel Lobby"
+    url: "/images/lounge.jpg",
+    alt: "Hotel Lounge"
   },
   {
     id: 4,
     category: "Restaurant",
-    url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600",
-    alt: "Restaurant Area"
+    url: "/images/dining1.jpg",
+    alt: "Kadalipatra"
   },
   {
     id: 5,
-    category: "Exterior",
-    url: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
-    alt: "Hotel Exterior"
+    category: "Restaurant",
+    url: "/images/dining2.jpg",
+    alt: "The Soul Curry"
   },
   {
     id: 6,
     category: "Rooms",
-    url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600",
-    alt: "Bedroom View"
+    url: "images/executive1.jpg",
+    alt: "Executive Room"
+  },
+  {
+    id: 7,
+    category: "Rooms",
+    url: "images/executive2.jpg",
+    alt: "Executive Room"
+  },
+  {
+    id: 8,
+    category: "Rooms",
+    url: "images/twin_premium3.jpg",
+    alt: "Premium Room"
+  },
+  {
+    id: 9,
+    category: "Rooms",
+    url: "images/twin_premium1.jpg",
+    alt: "Premium Room"
+  },
+  {
+    id: 10,
+    category: "Rooms",
+    url: "images/suite3.jpg",
+    alt: "Suite Room"
+  },
+  {
+    id: 11,
+    category: "Rooms",
+    url: "images/suite1.jpg",
+    alt: "Suite Room"
+  },
+  {
+    id: 12,
+    category: "Rooms",
+    url: "images/suite4.png",
+    alt: "Suite Room"
+  },
+  {
+    id: 13,
+    category: "Rooms",
+    url: "images/suite5.jpg",
+    alt: "Suite Room"
   }
 ];
 
