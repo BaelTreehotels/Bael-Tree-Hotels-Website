@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Bael Tree Hotels offers premium luxury stays in Madhapur, Hyderabad with modern amenities, comfortable rooms, and exceptional hospitality." />
         <!--
         manifest.json provides metadata used when your web app is installed on a
         user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -19,6 +18,60 @@
         Learn how to configure a non-root public URL by running `npm run build`.
         -->
         <title>Bael Tree Hotels | Luxury Stay in Hyderabad</title>
+        <meta
+        name="description"
+        content="Bael Tree Hotels offers premium luxury stays in Madhapur, Hyderabad with modern amenities, comfortable rooms, and exceptional hospitality."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://baeltreehotels.com/" />
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Bael Tree Hotels | Luxury Hotel in Madhapur" />
+        <meta
+        property="og:description"
+        content="Premium hospitality in Madhapur with modern rooms, comfort, and great service."
+        />
+        <meta property="og:url" content="https://baeltreehotels.com/" />
+        <meta property="og:image" content="%PUBLIC_URL%/images/beal-tree-main.jpg" />
+        <meta property="og:site_name" content="Bael Tree Hotels" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Bael Tree Hotels | Premium Stay in Hyderabad" />
+        <meta
+        name="twitter:description"
+        content="Luxury hotel in Madhapur with premium rooms and modern amenities."
+        />
+        <meta name="twitter:image" content="%PUBLIC_URL%/images/beal-tree-main.jpg" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+        <!-- Schema.org -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Bael Tree Hotels",
+            "url": "https://baeltreehotels.com",
+            "logo": "https://customer-assets.emergentagent.com/job_hotel-site-master/artifacts/esjg7cyg_BT%20png%20o.png",
+            "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Madhapur",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "postalCode": "500081",
+            "addressCountry": "IN"
+            },
+            "priceRange": "₹₹",
+            "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Free WiFi" },
+            { "@type": "LocationFeatureSpecification", "name": "Parking" },
+            { "@type": "LocationFeatureSpecification", "name": "Air Conditioning" }
+            ]
+        }
+        </script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
