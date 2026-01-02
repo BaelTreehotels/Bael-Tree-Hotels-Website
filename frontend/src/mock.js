@@ -38,7 +38,7 @@ export const rooms = [
     name: "Standard",
     description: "Comfortable room with essential amenities for a pleasant stay",
     price: 2500,
-    image: "/images/standard.jpg",
+    image: "/images/standard.webp",
     amenities: ["AC", "Wi-Fi", "TV", "Mini Bar"],
     maxGuests: 2,
     size: "10 m² / 108 ft²",
@@ -49,7 +49,7 @@ export const rooms = [
     name: "Executive",
     description: "Spacious room with king bed and dedicated workspace",
     price: 4000,
-    image: "/images/executive.jpg",
+    image: "/images/executive.webp",
     amenities: ["AC", "Wi-Fi", "King Bed", "TV", "Work Desk", "Mini Bar"],
     maxGuests: 2,
     size: "17 m² / 183 ft²",
@@ -60,7 +60,7 @@ export const rooms = [
     name: "Premium",
     description: "Premium room with dining area and enhanced comfort",
     price: 5000,
-    image: "/images/premium.jpg",
+    image: "/images/premium.webp",
     amenities: ["AC", "Wi-Fi", "King Bed", "TV", "Dining Table", "Work Desk", "Mini Bar"],
     maxGuests: 2,
     size: "22 m² / 237 ft²",
@@ -71,7 +71,7 @@ export const rooms = [
     name: "Suite Room",
     description: "Luxurious suite with lounge area and premium amenities",
     price: 6000,
-    image: "/images/suit.jpg",
+    image: "/images/suit.webp",
     amenities: ["AC", "Wi-Fi", "Lounge Area", "Mini Refrigerator", "Mini Bar"],
     maxGuests: 2,
     size: "32 m² / 344 ft²",
@@ -191,79 +191,103 @@ export const galleryImages = [
   {
     id: 1,
     category: "Exterior",
-    url: "/images/exterior-hotel.jpg",
+    url: "/images/exterior-hotel.webp",
     alt: "Hotel Exterior"
   },
   {
     id: 2,
     category: "Lobby",
-    url: "/images/lobby.jpg",
+    url: "/images/lobby.webp",
     alt: "Hotel Lobby"
   },
   {
     id: 3,
     category: "Lobby",
-    url: "/images/lounge.jpg",
+    url: "/images/lounge.webp",
     alt: "Hotel Lounge"
   },
   {
     id: 4,
     category: "Restaurant",
-    url: "/images/dining1.jpg",
+    url: "/images/dining1.webp",
     alt: "Kadalipatra"
   },
   {
     id: 5,
     category: "Restaurant",
-    url: "/images/dining2.jpg",
+    url: "/images/dining2.webp",
     alt: "The Soul Curry"
   },
   {
     id: 6,
     category: "Rooms",
-    url: "images/executive1.jpg",
+    url: "images/executive1.webp",
     alt: "Executive Room"
   },
   {
     id: 7,
     category: "Rooms",
-    url: "images/executive2.jpg",
+    url: "images/executive2.webp",
     alt: "Executive Room"
   },
   {
     id: 8,
     category: "Rooms",
-    url: "images/twin_premium3.jpg",
-    alt: "Premium Room"
+    url: "images/executive3.webp",
+    alt: "Executive Room"
   },
   {
     id: 9,
     category: "Rooms",
-    url: "images/twin_premium1.jpg",
-    alt: "Premium Room"
+    url: "images/executive4.webp",
+    alt: "Executive Room"
   },
   {
     id: 10,
     category: "Rooms",
-    url: "images/suite3.jpg",
-    alt: "Suite Room"
+    url: "images/twin_premium3.webp",
+    alt: "Premium Room"
   },
   {
     id: 11,
     category: "Rooms",
-    url: "images/suite1.jpg",
-    alt: "Suite Room"
+    url: "images/twin_premium1.webp",
+    alt: "Premium Room"
   },
   {
     id: 12,
     category: "Rooms",
-    url: "images/suite4.png",
-    alt: "Suite Room"
+    url: "images/premium4.webp",
+    alt: "Premium Room"
   },
   {
     id: 13,
     category: "Rooms",
-    url: "images/suite5.jpg",
+    url: "images/premium5.webp",
+    alt: "Premium Room"
+  },
+  {
+    id: 14,
+    category: "Rooms",
+    url: "images/suite3.webp",
+    alt: "Suite Room"
+  },
+  {
+    id: 15,
+    category: "Rooms",
+    url: "images/suite1.webp",
+    alt: "Suite Room"
+  },
+  {
+    id: 16,
+    category: "Rooms",
+    url: "images/suite4.webp",
+    alt: "Suite Room"
+  },
+  {
+    id: 17,
+    category: "Rooms",
+    url: "images/suite5.webp",
     alt: "Suite Room"
   }
 ];

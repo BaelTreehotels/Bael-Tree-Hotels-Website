@@ -52,7 +52,7 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:+91-9642325555">
+            <a href="tel:04045523555">
               <Button variant="outline" size="sm" className="border-amber-700 text-amber-700 hover:bg-amber-50">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Us
@@ -91,7 +91,7 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-2 pt-4">
-                <a href="tel:+91-9642325555">
+                <a href="tel:04045523555">
                   <Button variant="outline" className="w-full border-amber-700 text-amber-700">
                     <Phone className="w-4 h-4 mr-2" />
                     Call Us

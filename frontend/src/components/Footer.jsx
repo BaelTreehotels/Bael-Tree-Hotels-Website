@@ -15,16 +15,16 @@ const Footer = () => {
               Experience comfort and hospitality in the heart of Hyderabad. Your perfect stay awaits.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61585519851273" className="hover:text-amber-500 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              <a href="https://www.instagram.com/baeltree_hotels" className="hover:text-amber-500 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              <a href="https://www.linkedin.com/in/bael-tree-hotels-309812393/" className="hover:text-amber-500 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              <a href="https://www.youtube.com/@baeltreehotel" className="hover:text-amber-500 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>

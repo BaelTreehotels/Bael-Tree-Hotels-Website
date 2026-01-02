@@ -15,7 +15,7 @@ const Home = () => {
       <section className="relative h-[600px] flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-50">
         <div
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: "url('/images/beal-tree-main.jpg')" }}
+            style={{ backgroundImage: "url('/images/beal-tree-main.webp')" }}
         ></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-amber-950 mb-6">
